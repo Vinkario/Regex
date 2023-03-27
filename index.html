@@ -5,25 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="shortcut icon" href="assets/images/regex icon.png" type="image/x-icon">
     <title>Regex</title>
 </head>
 <body>
     <div class="container">
     <div class="input">
-        <input type="text" placeholder="/ /g" />
+        <input id="expressions" type="text" />
     </div>
     </div>
 
     <div class="text-area">
-    <textarea name="" id="" cols="30" rows="20"> </textarea>
+    <textarea name="" id="text-area" cols="30" rows="20"> </textarea>
     </div>
     <div class="checkbox">
-    <label for="">Global</label>
-    <input type="checkbox" />
+    <label for="global">Global</label>
+    <input id="global" name="global" type="checkbox" />
 
-    <label for="">CaseSensitive</label>
-    <input type="checkbox" />
-    </div>
+    <label for="isensitive">CaseSensitive</label>
+    <input id="isensitive" name="isensitive" type="checkbox" />
+     <button id="filtrar">Filtrar</button>   
+</div>
     <script src="assets/js/main.js"></script>
 </body>
 </html>
